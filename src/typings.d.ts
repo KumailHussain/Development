@@ -4,4 +4,4 @@ interface NodeModule {
   id: string;
 }
 declare var jQuery;
-declare var google;
+
