@@ -979,14 +979,14 @@ welcome area
     padding-bottom: 65px; }
     /* line 530, C:/Users/Crazy Cafe/Desktop/Cafe Duke/Html/css/sass/style.scss */
     .welcome_area .single_welcome_slider .welcome_content span {
-      color: #fff;
+      color: black;
       font-size: 40px;
       font-family: "Great Vibes", cursive;
       -webkit-animation-delay: .0s;
       animation-delay: .0s; }
     /* line 537, C:/Users/Crazy Cafe/Desktop/Cafe Duke/Html/css/sass/style.scss */
     .welcome_area .single_welcome_slider .welcome_content h1 {
-      color: #fff;
+      color: black;
       font-size: 35px;
       font-weight: 600;
       line-height: 50px;
