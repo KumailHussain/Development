@@ -17,42 +17,42 @@
     <div class="row">
       <div class="col-md-12">
         <ul class="our_menu_tabs">
-          <li class="active" data-name="*"><a href="#">ALL</a></li>
-          <li data-name=".brackfast"><a href="#">BRACKFAST</a></li>
-          <li data-name=".pizza"><a href="#">PIZZA</a></li>
-          <li data-name=".lunch"><a href="#">LUNCH</a></li>
-          <li data-name=".drinks"><a href="#">DRINKS</a></li>
-          <li data-name=".soup"><a href="#">SOUP</a></li>
-          <li data-name=".dinner"><a href="#">DINNER</a></li>
+          <li data-name=".*" class="active" (click)="changeMenu(0)"><a>ALL</a></li>
+          <li data-name=".brackfast" (click)="changeMenu(1)"><a>BRACKFAST</a></li>
+          <li data-name=".pizza" (click)="changeMenu(2)"><a>PIZZA</a></li>
+          <li data-name=".lunch" (click)="changeMenu(3)"><a >LUNCH</a></li>
+          <li data-name=".drinks" (click)="changeMenu(4)"><a>DRINKS</a></li>
+          <li data-name=".soup" (click)="changeMenu(5)"><a >SOUP</a></li>
+          <li data-name=".dinner" (click)="changeMenu(6)"><a >DINNER</a></li>
         </ul>
       </div>
     </div>
     <div class="row isotope">
-      <div class="col-sm-4 brackfast single_menu">
+      <div class="col-sm-4 brackfast single_menu" *ngIf="config[0]==0 || config[1] == 0">
         <a href="img/gallery1.jpg"><img src="../../../assets/img//gallery1.jpg" alt=""></a>
       </div>
-      <div class="col-sm-4 pizza single_menu">
+      <div class="col-sm-4 pizza single_menu" *ngIf="config[0]==0 || config[2] == 0">
         <a href="img/gallery2.jpg"><img src="../../../assets/img//gallery2.jpg" alt=""></a>
       </div>
-      <div class="col-sm-4 brackfast pizza single_menu">
+      <div class="col-sm-4 brackfast pizza single_menu" *ngIf="config[0]==0 || config[1] == 0 || config[2] == 0">
         <a href="img/gallery3.jpg"><img src="../../../assets/img//gallery3.jpg" alt=""></a>
       </div>
-      <div class="col-sm-4 brackfast lunch single_menu">
+      <div class="col-sm-4 brackfast lunch single_menu" *ngIf="config[0]==0 || config[1] == 0 || config[3] == 0">
         <a href="img/gallery4.jpg"><img src="../../../assets/img//gallery4.jpg" alt=""></a>
       </div>
-      <div class="col-sm-4 brackfast dinner drinks single_menu">
+      <div class="col-sm-4 brackfast dinner drinks single_menu" *ngIf="config[0]==0 || config[6] == 0 || config[1] == 0 || config[4] == 0">
         <a href="img/gallery5.jpg"><img src="../../../assets/img//gallery5.jpg" alt=""></a>
       </div>
-      <div class="col-sm-4   single_menu">
+      <div class="col-sm-4   single_menu" *ngIf="config[0]==0">
         <a href="img/gallery6.jpg"><img src="../../../assets/img//gallery6.jpg" alt=""></a>
       </div>
-      <div class="col-sm-4  single_menu">
+      <div class="col-sm-4  single_menu" *ngIf="config[0]==0">
         <a href="img/gallery7.jpg"><img src="../../../assets/img//gallery7.jpg" alt=""></a>
       </div>
-      <div class="col-sm-4 soup dinner drinks single_menu">
+      <div class="col-sm-4 soup dinner drinks single_menu"  *ngIf="config[5]==0 || config[6] == 0 || config[4] == 0 || config[0] == 0">
         <a href="img/gallery8.jpg"><img src="../../../assets/img//gallery8.jpg" alt=""></a>
       </div>
-      <div class="col-sm-4 dinner  single_menu">
+      <div class="col-sm-4 dinner  single_menu" *ngIf="config[0]==0 || config[6] == 0 ">
         <a href="img/gallery9.jpg"><img src="../../../assets/img//gallery9.jpg" alt=""></a>
       </div>
     </div>
