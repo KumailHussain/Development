@@ -366,7 +366,6 @@ header area
     position: relative;
     text-align: center;
     text-transform: uppercase;
-    background: #fff;
     width: 100px; }
     .header_top a.cart_btn i {
       color: #FF5E18;
@@ -421,8 +420,6 @@ header area
 
 .header_bottom {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   background: #f3f3f3 none repeat scroll 0 0;
   padding: 20px 0; }
   @media only screen and (min-width: 768px) {
@@ -449,9 +446,9 @@ header area
         position: absolute;
         -webkit-perspective: 1000px;
         perspective: 1000px;
-        top: 125%;
-        left: 0;
-        width: 180px;
+        top: 80%;
+        left: -19px;
+        width: 100px;
         z-index: 2; }
         .header_bottom .main_menu > li ul.sub_menu li {
           display: none;
@@ -474,8 +471,8 @@ header area
             animation-name: dropdown;
             -webkit-animation-duration: .3s;
             animation-duration: .3s;
-            -webkit-animation-delay: 0ms;
-            animation-delay: 0ms;
+            -webkit-animation-delay: 150ms;
+            animation-delay: 150ms;
             -webkit-animation-timing-function: ease-in-out;
             animation-timing-function: ease-in-out;
             -webkit-animation-fill-mode: forwards;
@@ -485,195 +482,8 @@ header area
             animation-name: dropdown;
             -webkit-animation-duration: .3s;
             animation-duration: .3s;
-            -webkit-animation-delay: 150ms;
-            animation-delay: 150ms;
-            -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards; }
-          .header_bottom .main_menu > li ul.sub_menu li:nth-child(4) {
-            -webkit-animation-name: dropdown;
-            animation-name: dropdown;
-            -webkit-animation-duration: .3s;
-            animation-duration: .3s;
-            -webkit-animation-delay: 300ms;
-            animation-delay: 300ms;
-            -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards; }
-          .header_bottom .main_menu > li ul.sub_menu li:nth-child(5) {
-            -webkit-animation-name: dropdown;
-            animation-name: dropdown;
-            -webkit-animation-duration: .3s;
-            animation-duration: .3s;
             -webkit-animation-delay: 450ms;
             animation-delay: 450ms;
-            -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards; }
-          .header_bottom .main_menu > li ul.sub_menu li:nth-child(6) {
-            -webkit-animation-name: dropdown;
-            animation-name: dropdown;
-            -webkit-animation-duration: .3s;
-            animation-duration: .3s;
-            -webkit-animation-delay: 600ms;
-            animation-delay: 600ms;
-            -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards; }
-          .header_bottom .main_menu > li ul.sub_menu li:nth-child(7) {
-            -webkit-animation-name: dropdown;
-            animation-name: dropdown;
-            -webkit-animation-duration: .3s;
-            animation-duration: .3s;
-            -webkit-animation-delay: 750ms;
-            animation-delay: 750ms;
-            -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards; }
-          .header_bottom .main_menu > li ul.sub_menu li:nth-child(8) {
-            -webkit-animation-name: dropdown;
-            animation-name: dropdown;
-            -webkit-animation-duration: .3s;
-            animation-duration: .3s;
-            -webkit-animation-delay: 900ms;
-            animation-delay: 900ms;
-            -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards; }
-          .header_bottom .main_menu > li ul.sub_menu li:nth-child(9) {
-            -webkit-animation-name: dropdown;
-            animation-name: dropdown;
-            -webkit-animation-duration: .3s;
-            animation-duration: .3s;
-            -webkit-animation-delay: 1050ms;
-            animation-delay: 1050ms;
-            -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards; }
-          .header_bottom .main_menu > li ul.sub_menu li:nth-child(10) {
-            -webkit-animation-name: dropdown;
-            animation-name: dropdown;
-            -webkit-animation-duration: .3s;
-            animation-duration: .3s;
-            -webkit-animation-delay: 1200ms;
-            animation-delay: 1200ms;
-            -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards; }
-          .header_bottom .main_menu > li ul.sub_menu li:nth-child(11) {
-            -webkit-animation-name: dropdown;
-            animation-name: dropdown;
-            -webkit-animation-duration: .3s;
-            animation-duration: .3s;
-            -webkit-animation-delay: 1350ms;
-            animation-delay: 1350ms;
-            -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards; }
-          .header_bottom .main_menu > li ul.sub_menu li:nth-child(12) {
-            -webkit-animation-name: dropdown;
-            animation-name: dropdown;
-            -webkit-animation-duration: .3s;
-            animation-duration: .3s;
-            -webkit-animation-delay: 1500ms;
-            animation-delay: 1500ms;
-            -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards; }
-          .header_bottom .main_menu > li ul.sub_menu li:nth-child(13) {
-            -webkit-animation-name: dropdown;
-            animation-name: dropdown;
-            -webkit-animation-duration: .3s;
-            animation-duration: .3s;
-            -webkit-animation-delay: 1650ms;
-            animation-delay: 1650ms;
-            -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards; }
-          .header_bottom .main_menu > li ul.sub_menu li:nth-child(14) {
-            -webkit-animation-name: dropdown;
-            animation-name: dropdown;
-            -webkit-animation-duration: .3s;
-            animation-duration: .3s;
-            -webkit-animation-delay: 1800ms;
-            animation-delay: 1800ms;
-            -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards; }
-          .header_bottom .main_menu > li ul.sub_menu li:nth-child(15) {
-            -webkit-animation-name: dropdown;
-            animation-name: dropdown;
-            -webkit-animation-duration: .3s;
-            animation-duration: .3s;
-            -webkit-animation-delay: 1950ms;
-            animation-delay: 1950ms;
-            -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards; }
-          .header_bottom .main_menu > li ul.sub_menu li:nth-child(16) {
-            -webkit-animation-name: dropdown;
-            animation-name: dropdown;
-            -webkit-animation-duration: .3s;
-            animation-duration: .3s;
-            -webkit-animation-delay: 2100ms;
-            animation-delay: 2100ms;
-            -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards; }
-          .header_bottom .main_menu > li ul.sub_menu li:nth-child(17) {
-            -webkit-animation-name: dropdown;
-            animation-name: dropdown;
-            -webkit-animation-duration: .3s;
-            animation-duration: .3s;
-            -webkit-animation-delay: 2250ms;
-            animation-delay: 2250ms;
-            -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards; }
-          .header_bottom .main_menu > li ul.sub_menu li:nth-child(18) {
-            -webkit-animation-name: dropdown;
-            animation-name: dropdown;
-            -webkit-animation-duration: .3s;
-            animation-duration: .3s;
-            -webkit-animation-delay: 2400ms;
-            animation-delay: 2400ms;
-            -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards; }
-          .header_bottom .main_menu > li ul.sub_menu li:nth-child(19) {
-            -webkit-animation-name: dropdown;
-            animation-name: dropdown;
-            -webkit-animation-duration: .3s;
-            animation-duration: .3s;
-            -webkit-animation-delay: 2550ms;
-            animation-delay: 2550ms;
-            -webkit-animation-timing-function: ease-in-out;
-            animation-timing-function: ease-in-out;
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards; }
-          .header_bottom .main_menu > li ul.sub_menu li:nth-child(20) {
-            -webkit-animation-name: dropdown;
-            animation-name: dropdown;
-            -webkit-animation-duration: .3s;
-            animation-duration: .3s;
-            -webkit-animation-delay: 2700ms;
-            animation-delay: 2700ms;
             -webkit-animation-timing-function: ease-in-out;
             animation-timing-function: ease-in-out;
             -webkit-animation-fill-mode: forwards;
@@ -734,8 +544,6 @@ header area
           background: transparent none repeat scroll 0 0;
           text-align: left; }
           .header_bottom nav.menu_bar .slicknav_menu .slicknav_btn {
-            background: transparent none repeat scroll 0 0;
-            float: left;
             background: transparent none repeat scroll 0 0;
             float: left;
             position: absolute;
@@ -936,13 +744,13 @@ combo area
     background-image: url("../../img/combo_bg.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
-    bottom: -14px;
+    bottom: 10px;
     content: "";
-    height: 390px;
+    height: 453px;
     margin-right: -784px;
     position: absolute;
-    right: 50%;
-    width: 471px; }
+    right: 41%;
+    width: 462px; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .combo_offer_area:after {
       height: 264px;
@@ -1061,22 +869,16 @@ our_menu area
 
 .our_menu_tabs {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
   border-bottom: medium none !important; }
   .our_menu_tabs li {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
     display: block;
     width: 100%; }
     .our_menu_tabs li a {
       -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
       background: transparent none repeat scroll 0 0 !important;
       border: medium none;
       color: #e2e2e2;
@@ -1088,7 +890,7 @@ our_menu area
       padding-top: 10px; }
       .our_menu_tabs li a .icon_wraper {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
         float: left;
         height: 50px;
         margin-right: 32px;
@@ -1115,7 +917,7 @@ our_menu area
           visibility: hidden; }
       .our_menu_tabs li a:hover {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
         background: transparent none repeat scroll 0 0 !important;
         border: medium none !important;
         color: #FF5E18; }
@@ -1135,10 +937,10 @@ our_menu area
 
 .our_menu_tabs li.active {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }
+   }
   .our_menu_tabs li.active a {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
     background: transparent none repeat scroll 0 0 !important;
     border: medium none !important;
     color: #FF5E18; }
@@ -1154,8 +956,7 @@ our_menu area
       visibility: visible; }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  padding: 60px 0 25px;
-  text-align: center;
+
   .section_tittle {
     margin-bottom: 50px; }
 
@@ -1172,7 +973,6 @@ our_menu area
         .our_menu_tabs li a .icon_wraper {
           display: none; } }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  padding: 80px 0 50px;
   .section_tittle {
     margin-bottom: 70px; }
 
@@ -1729,25 +1529,15 @@ footer:hover a {
 ==============+++++-+/+/+/+/+/==========+++++-+/+/+/+/+/===============*/
 .food_menu_page {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
   padding: 100px 0 30px; }
   .food_menu_page .our_menu_tabs {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
     margin-bottom: 100px; }
     .food_menu_page .our_menu_tabs > li {
       -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
       display: inline-block;
       margin-left: 49px;
       width: auto !important; }
@@ -1755,9 +1545,7 @@ footer:hover a {
         margin-left: 0; }
       .food_menu_page .our_menu_tabs > li a {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
         color: #0d0d0d;
         font-size: 18px;
         height: 50px;
@@ -1765,7 +1553,6 @@ footer:hover a {
         padding-top: 0 !important; }
         .food_menu_page .our_menu_tabs > li a .icon_wraper {
           -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
           float: left;
           overflow: hidden;
           height: 50px;
@@ -1792,11 +1579,9 @@ footer:hover a {
             z-index: 1; }
         .food_menu_page .our_menu_tabs > li a:hover {
           -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
           color: #FF5E18; }
           .food_menu_page .our_menu_tabs > li a:hover .icon_wraper {
-            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
             .food_menu_page .our_menu_tabs > li a:hover .icon_wraper .icon {
               opacity: 0;
               -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -1809,14 +1594,14 @@ footer:hover a {
               visibility: visible; }
     .food_menu_page .our_menu_tabs li.active {
       -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }
+       }
       .food_menu_page .our_menu_tabs li.active a {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
         color: #FF5E18; }
         .food_menu_page .our_menu_tabs li.active a .icon_wraper {
           -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }
+           }
           .food_menu_page .our_menu_tabs li.active a .icon_wraper .icon {
             opacity: 0;
             -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -2284,7 +2069,7 @@ footer:hover a {
 ==============+++++-+/+/+/+/+/==========+++++-+/+/+/+/+/===============*/
 .gallery_page_area {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
   padding: 100px 0 60px; }
   .gallery_page_area .our_menu_tabs {
     margin-bottom: 95px; }
@@ -2304,11 +2089,11 @@ footer:hover a {
       color: #FF5E18; }
   .gallery_page_area .single_menu {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
     padding-bottom: 30px; }
     .gallery_page_area .single_menu > a {
       -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
       cursor: url("../../img/cursor.png"), auto;
       position: relative;
       overflow: hidden;
@@ -2724,11 +2509,11 @@ footer:hover a {
 
 .review_area {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
   padding-bottom: 100px; }
   .review_area .review_tab.nav-tabs {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
     margin-bottom: 30px;
     overflow: hidden;
     width: 100%; }
@@ -3459,3 +3244,8 @@ a[href^="https://maps.google.com/maps"] {
         margin-top: 20px; } }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.carousel-cell{
+  width: 100%;
+}
