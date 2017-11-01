@@ -32,7 +32,7 @@
                 loop: true,
                 smartSpeed: 500,
                 autoplay: true,
-                mouseDrag: false,
+                mouseDrag: true,
                 touchDrag: false
             });
 
