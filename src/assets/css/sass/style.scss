@@ -528,14 +528,15 @@ welcome area
             padding-right: 60px;
             padding-bottom: 65px;
             span {
-                color: #fff;
+                color: #d58512;
                 font-size: 40px;
                 font-family: $husand;
                 -webkit-animation-delay: .0s;
                 animation-delay: .0s;
             }
             h1 {
-                color: #fff;
+                color: #d58512;
+                background-color: #d58512;
                 font-size: 35px;
                 font-weight: 600;
                 line-height: 50px;
@@ -1002,7 +1003,7 @@ special_food area
     .singl_special_slider {
         img {
             margin-bottom: 25px;
-            white-space: 100%;
+            white-space: normal;
         }
         .special_content {
             h4 {

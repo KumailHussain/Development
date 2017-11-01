@@ -137,7 +137,8 @@ body {
     float: left;
     height: 60px;
     margin-right: 20px;
-    width: 60px; }
+    width: 60px;
+  }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .section_tittle {
       margin-bottom: 50px;
@@ -1010,7 +1011,7 @@ combo area
 our_menu area
 =====================================*/
 .our_menu_area {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
   background-image: url("../../img/menu_bg.jpg");
   background-position: center top;
   background-size: cover;
@@ -1022,7 +1023,7 @@ our_menu area
     content: "";
     height: 100%;
     left: 0;
-    opacity: 0.9;
+    opacity: 0.7;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
     position: absolute;
     top: 0;
@@ -1381,7 +1382,7 @@ set_menu area
 testimonial area
 =====================================*/
 .testimonial_area {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=88)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
   background-image: url("../../img/testimonial_bg.jpg");
   background-position: center center;
   background-size: cover;
@@ -1393,7 +1394,7 @@ testimonial area
     content: "\'";
     height: 100%;
     left: 0;
-    opacity: 0.88;
+    opacity: 0.70;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=88)";
     position: absolute;
     top: 0;
