@@ -1,30 +1,31 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, AfterViewInit} from '@angular/core';
 
 @Component({
   templateUrl: './gallery.component.html',
   styleUrls: ['./gallery.component.css'],
 })
 
-export class  GalleryComponent implements OnInit{
-  config: any;
+export class  GalleryComponent implements AfterViewInit{
+  title = 'app';
+  constructor() {}
 
-  ngOnInit() {
-
-    this.config = [0,1,1,1,1,1,1]
-
+  async ngAfterViewInit() {
+    this.loadScript("assets/js/owl.carousel.min.js")
+    this.loadScript("assets/js/jquery.slicknav.min.js")
+    this.loadScript("assets/js/wow.min.js")
+    this.loadScript("assets/js/isotope.pkgd.min.js")
+    this.loadScript("assets/js/jquery.magnific-popup.min.js")
+    this.loadScript("assets/js/active.js")
   }
 
-  changeMenu(item) {
-
-    for (var i in this.config) {
-      if(i ==item) {
-      this.config[i] = 0;
-      }
-      else {
-        this.config[i] = 1;
-      }
-    }
-    console.log(this.config)
+  private loadScript(scriptUrl: string) {
+    return new Promise((resolve, reject) => {
+      const scriptElement = document.createElement('script')
+      scriptElement.src = scriptUrl
+      scriptElement.onload = resolve
+      document.body.appendChild(scriptElement)
+    })
   }
-
 }
+
+
